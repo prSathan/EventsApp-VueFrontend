@@ -24,7 +24,9 @@
           <input type="text" class="form-control" placeholder="Description" v-model="Event.description">
         </div>
         <button type="submit" class="btn btn-large btn-block btn-primary full-width" @click="addToAPI">Create Event</button>
+        <router-link to="/events">
         <button class="btn btn-large btn-block btn-success full-width">View Events</button>
+        </router-link>
       </div>
     </form>
 
@@ -70,7 +72,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
   font-weight: normal;
