@@ -1,21 +1,19 @@
-# events_app
+# EventsApp-VueFrontend
 
-> A Vue.js project
+## Installation
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
+$ git clone git@github.com:prSathan/EventsApp-VueFrontend.git
+$ cd projectdirectory
+$ npm install
+$ npm start
+```
+Please install the CORS google chrome extension to allow for data to be sent between tabs.
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Using the Application
+
+```
+- Enter Details into form and click 'Create Event' to add an event.
+- Click View Events to view current Events
+- Click Add Event to return to event entry page
+```
