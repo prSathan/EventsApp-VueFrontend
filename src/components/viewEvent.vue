@@ -8,19 +8,19 @@
       <thead>
         <tr>
           <th class="center">Title</th>
-          <th class="center">Date From</th>
-          <th class="center">Date To</th>
+          <th class="center">Date</th>
+          <th class="center">Time</th>
           <th class="center">Location</th>
-          <th class="center">Details</th>
+          <th class="center">Description</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="event_alias in Event">
           <td class="text-left"> {{ event_alias.title}}</td>
-          <td class="text-left"> {{ event_alias.date_from}}</td>
-          <td class="text-left"> {{ event_alias.date_to}}</td>
+          <td class="text-left"> {{ event_alias.date}}</td>
+          <td class="text-left"> {{ event_alias.time}}</td>
           <td class="text-left"> {{ event_alias.location}}</td>
-          <td class="text-left"> {{ event_alias.details}}</td>
+          <td class="text-left"> {{ event_alias.description}}</td>
         </tr>
       </tbody>
     </table>

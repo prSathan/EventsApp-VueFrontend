@@ -8,12 +8,12 @@
           <input type="text" class="form-control" placeholder="Title" v-model="Event.title">
         </div>
         <div class="form-group">
-          <label class="pull-left">Date From</label>
-          <input type="text" class="form-control" placeholder="Date From" v-model="Event.date_from">
+          <label class="pull-left">Date</label>
+          <input type="text" class="form-control" placeholder="Date" v-model="Event.date">
         </div>
         <div class="form-group">
-          <label class="pull-left">Date To</label>
-          <input type="text" class="form-control" placeholder="Date To" v-model="Event.date_to">
+          <label class="pull-left">Time</label>
+          <input type="text" class="form-control" placeholder="Time" v-model="Event.time">
         </div>
         <div class="form-group">
           <label class="pull-left">Location</label>
@@ -49,8 +49,8 @@ export default {
 
       let newEvent = {
         title: this.Event.title,
-        date_from: this.Event.date_from,
-        date_to: this.Event.date_to,
+        date: this.Event.date,
+        time: this.Event.time,
         location: this.Event.location,
         description: this.Event.description,
 
