@@ -1,7 +1,7 @@
 <template>
 
   <div class="container">
-      <h1>Get User</h1>
+      <h1>Events</h1>
 
 
       <table class="table table-striped table-borderes">
